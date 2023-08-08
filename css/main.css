@@ -1,0 +1,47 @@
+body{
+    background-color: brown;
+}
+.text{
+    color: white;
+    border: 3px solid white; /* solid,dotted,dashed,double,groove,ridge,inset,outset */
+    /*border-width: 10px;*/
+    /*border-top-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-left-width: 10px;*/
+    /*border-style: solid;*/
+    /*border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;*/
+    /*border-color: white;*/
+   /* border-top-color: white;
+    border-right-color: white;
+    border-bottom-color: white;
+    border-left-color: white;*/
+    text-align: left; /* left (default code),center,right,justify */
+    text-transform: none; /* none(default code),uppercase,lowercase,capitalize */
+    text-decoration: none; /* none(default code),underline,overline,line-through */
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    line-height: 15px;
+}
+
+.block{
+    background-color: white;
+    width: 500px;
+    height: 200px;
+    /*margin: 100px 20px 30px 120px;*/
+    /*margin-top: 100px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 120px;*/
+    margin: 100px auto;
+    /*padding: 100px 20px 30px 120px;*/
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+
